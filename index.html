@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3061875b7a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><span style="color:#ff004f;">Web Developer</span></p>
+                <h1>Hi, I'm <span style="text-decoration: underline white;">Arjun</span><br>Nair from Dombivli</h1>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2024-07-21 at 11.37.28 PM.jpeg" alt="Arjun">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <p>Hi, I'm Arjun, a Web developer with expertise in Java, HTML, CSS, and a solid grasp of Spring, Swing, and JDBC. 
+                        I am passionate about creating elegant solutions and enjoy exploring new technologies.<br>
+                        Outside of work, you will find me trekking, cooking, drawing, playing the guitar, or engaging in sports. 
+                        Let's connect and explore how we can create something amazing together!</p>
+<br><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span style="font-size: 20px;">Web Development</span><br>Hands on skill on HTML and CSS</li>
+                            <li><span style="font-size: 20px;">Java</span><br>Basic Knowledge of Java and its Frameworks</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023-24&nbsp;   </span> &nbsp;This was my Graduation where I secured an <span style="color: #ff004f;">7.67 CGPA</span><br></li>
+                            <li><span>2020-21&nbsp;   </span> &nbsp;This was my 12th Grade where I secured an <span style="color: #ff004f;">86% grade</span><br></li>
+                            <li><span>2018-2019&nbsp;   </span> &nbsp;This was my 10th Grade where I secured an <span style="color: #ff004f;">74.8% grade</span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i><br><br>
+                    <h2>Web Design</h2>
+                    <p>Hi, I'm Arjun, a Java developer with expertise 
+                        in Java, HTML, CSS, and a solid grasp of Spring, Swing, and JDBC. 
+                        I’m passionate about creating elegant solutions</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uikit"></i><br><br>
+                    <h2>Ui/UX Design</h2>
+                    <p>Hi, I'm Arjun, a Java developer with expertise 
+                        in Java, HTML, CSS, and a solid grasp of Spring, Swing, and JDBC. 
+                        I’m passionate about creating elegant solutions</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i><br><br>
+                    <h2>App Design</h2>
+                    <p>Hi, I'm Arjun, a Java developer with expertise 
+                        in Java, HTML, CSS, and a solid grasp of Spring, Swing, and JDBC. 
+                        I’m passionate about creating elegant solutions</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+           <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>the app conatct the media app</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png"> 
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>the app conatct the Music app</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nairarjun691@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8169190996</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Arjun Resume (2).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn3 btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright"><p>Copyright © Arjun.</p></div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(event, tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+        
+    </script>
+</body>
+</html>
